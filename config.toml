@@ -1,7 +1,7 @@
 baseurl = "wibugeek.com"
 languageCode = "en-us"
 title = "WibuGeek"
-theme = "hugo-type-theme"
+theme = "ampas"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "wibugeek"
 # Add your tracking code to enable Google Analytics

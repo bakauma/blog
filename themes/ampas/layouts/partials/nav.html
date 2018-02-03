@@ -1,0 +1,18 @@
+<header class="site-header">
+	<div class="branding">
+		<a class="avatar" href="{{ .Site.BaseURL }}">
+			<img class="avatar-img" src="{{ .Site.BaseURL }}{{ .Site.Params.avatar }}" alt=""/>
+		</a>
+		<h1 class="site-title">
+			<a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			{{ partial "icons.html" . }}
+			{{ range .Site.Menus.nav -}}
+				<li><a href="{{ .URL }}"> {{ .Name }} </a></li>
+			{{- end }}
+		</ul>
+	</nav>
+</header>
