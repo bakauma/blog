@@ -1,5 +1,6 @@
 {{ define "main" -}}
 	{{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
+	<span itemscope itemtype="http://schema.org/Article">
 	<article class="feature-image">
 		<header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
 			<h1 class="title">{{ .Title }}</h1>
@@ -7,16 +8,22 @@
 	{{- else -}}
 	<article>
 		<header>
-			<h1 class="title">{{ .Title }}</h1>
+			<h1 itemprop="name" class="title">{{ .Title }}</h1>
 			{{ partial "post-meta" . }}
 		</header>
 	{{- end }}
 		<section class="post-content">
-			{{ .Content }}
-
+			<div class="single-meta">
+				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
+				Author : <span itemprop="name">BakaUma</span></span> | <span itemprop="datePublished" content="{{ .Date.Format '2-01-2006' }}">{{ .Date.Format "January 2, 2006" }}</span>
+			</div>
+				<span itemprop="articleBody">
+					{{ .Content }}
+				</span>
 			{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
 				{{ template "_internal/disqus.html" . }}
 			{{ end }}
 		</section>
 	</article>
+	</span>
 {{- end }}
