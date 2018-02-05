@@ -1,6 +1,6 @@
 {{ define "main" -}}
+<span itemscope itemtype="http://schema.org/Article">
 	{{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
-	<span itemscope itemtype="http://schema.org/Article">
 	<article class="feature-image">
 		<header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
 			<h1 class="title">{{ .Title }}</h1>
