@@ -13,7 +13,7 @@ Jadi ceritanya kemarin chatingan sama temen main [**osu!**](//osu.ppy.sh/home), 
 ## Distro ArchLinux
 ini untuk yang makek archlinux, di [AUR](https://aur.archlinux.org/) jadi kalian bisa langsung install dari terminal dengan  yaourt.Untuk kalian yang belum install yaourt bisa cari tutorial untuk menginstall yaourt di google atau semacamnya.
 tinggal copy kode dibawah ini untuk yang sudah install yaour.
-```
+```bash
 yaourt -S osu
 ```
 bakal muncul dialog seperti dibawah.
