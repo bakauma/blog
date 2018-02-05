@@ -10,7 +10,6 @@ paginate = 6
 	description = "Website yang sangat tidak cocok untuk orang yang ingin belajar dunia IT"
 	keywords = "wibu,geek,programmer,linux,pc,server,web,wibugeek"
 	avatar = "img/avatar.png"
-	# or use Gravatar by adding your email address to generate a unique avatar
 	gravatar = "bakauma@gmail.com"
 	headerImage = ""
 	copyright = "WibuGeek. All rights reserved | theme by [DhamaRoot](https://www.facebook.com/dhamRoot) and Powered by [Hugo](//gohugo.io)"
