@@ -1,0 +1,43 @@
+---
+hide_body: false
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: text
+  hidden: false
+  default: 
+- name: draft
+  label: Draft
+  type: boolean
+  hidden: false
+  default: true
+- name: tags
+  label: Tags
+  type: tag_list
+  hidden: false
+  default: []
+- name: categories
+  label: Categories
+  type: tag_list
+  hidden: false
+  default: []
+- name: featureimage
+  label: Featureimage
+  type: text
+  hidden: false
+  default: ''
+- name: menu
+  label: Menu
+  type: text
+  hidden: true
+  default: ''
+- name: description
+  label: Description
+  type: text
+  hidden: false
+  default: ''
