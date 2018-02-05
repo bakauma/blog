@@ -1,7 +1,7 @@
 +++
 date = "2017-12-23"
 title = "About"
-featureimage = "img/sample_feature_img_3.png"
+featureimage = "img/about_img.jpg"
 menu = "nav"
 disableComments = true
 +++
