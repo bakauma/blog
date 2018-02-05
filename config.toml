@@ -3,7 +3,7 @@ languageCode = "id"
 title = "WibuGeek"
 theme = "ampas"
 disqusShortname = "wibugeek"
-googleAnalytics = ""
+googleAnalytics = "UA-108718193-1"
 paginate = 6
 [params]
 	author = "BakaUma"
