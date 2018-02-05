@@ -1,14 +1,14 @@
 # Pagination buttons
-previous = "Prev"
-next = "Next"
+previous = "sebelum"
+next = "selanjutnya"
 
 # Post list
 readingTime = "minute read" # e.g. 3 minute read
-continueReading = "Continue reading"
+continueReading = "lanjut baca"
 
 # 404.html
-pageNotFoundTitle = "Page not found"
-pageNotFoundSubtitle = "Sorry, the requested page wasn’t found on the server."
+pageNotFoundTitle = "Halaman tidak ditemukan"
+pageNotFoundSubtitle = "Maaf, Halaman tidak ada... :("
 
 # Social networks
 # Text will beshown while hovering the navigation icons

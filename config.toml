@@ -1,28 +1,18 @@
 baseurl = "http://wibugeek.com/"
-languageCode = "en-us"
+languageCode = "id"
 title = "WibuGeek"
 theme = "ampas"
-# Enable comments by entering your Disqus shortname
 disqusShortname = "wibugeek"
-# Add your tracking code to enable Google Analytics
 googleAnalytics = ""
-# Posts per page
 paginate = 6
-
-
 [params]
 	author = "BakaUma"
 	description = "Website yang sangat tidak cocok untuk orang yang ingin belajar dunia IT"
-	# The keywords will be added as a meta tag. Delimit them with a comma.
 	keywords = "wibu,geek,programmer,linux,pc,server,web,wibugeek"
-	# Either show custom avatar on the top
-	# left by adding the filename in below
 	avatar = "img/avatar.png"
 	# or use Gravatar by adding your email address to generate a unique avatar
 	gravatar = "bakauma@gmail.com"
-
 	headerText = "Jika anda sedang mencari website yang membahas tentang dunia IT maka anda di website yang salah."
-
 	headerImage = ""
 	copyright = "WibuGeek. All rights reserved | theme by [DhamaRoot](https://www.facebook.com/dhamRoot) and Powered by [Hugo](//gohugo.io)"
 
@@ -30,7 +20,7 @@ paginate = 6
 	[params.social]
 		# Insert your accout name and the icon will be shown in the right menu
 		rss = true
-		homepage = true
+		homepage = false
 		email = "bakauma@gmail.com"
 		behance = ""
 		bitbucket  =""

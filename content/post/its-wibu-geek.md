@@ -6,8 +6,6 @@ tags : ["wibugeek"]
 categories : ["shitpost"]
 featureimage : ""
 menu : ""
-description : "cuman pengen ngomong kalau blog ini bakal mulai aktif setelah sekialn lama ngak ada yang pegang akhirnya gua pegang lagi...
-  "
 ---
 ## WibuGeek 
 Setelah sekian lama blog ini dibuat dan _dianggurin_ akhirnya mumpung sedang tidak ada kerjaan dan lagi butuh tempat buat _ngebacot_ jadi saya putusin buat ngurusin lagi blog ini. Btw theme juga saya ubah biar agak lebih fresh....  
