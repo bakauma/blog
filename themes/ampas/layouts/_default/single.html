@@ -1,5 +1,4 @@
 {{ define "main" -}}
-<span itemscope itemtype="http://schema.org/Article">
 	{{ if and (isset .Params "featureimage") (not (eq .Params.featureimage "")) -}}
 	<article class="feature-image">
 		<header style="background-image: url('{{ .Site.BaseURL }}{{ .Params.featureimage }}')">
@@ -14,16 +13,12 @@
 	{{- end }}
 		<section class="post-content">
 			<div class="single-meta">
-				<span itemprop="author" itemscope itemtype="http://schema.org/Person">
-				Author : <span itemprop="name">BakaUma</span></span> | <span itemprop="datePublished" content="{{ .Date.Format '2-01-2006' }}">{{ .Date.Format "January 2, 2006" }}</span>
+				Author : BakaUma | {{ .Date.Format "January 2, 2006" }}
 			</div>
-				<span itemprop="articleBody">
 					{{ .Content }}
-				</span>
 			{{ if (not (eq .Site.DisqusShortname "")) | and (not .Params.disableComments) }}
 				{{ template "_internal/disqus.html" . }}
 			{{ end }}
 		</section>
 	</article>
-	</span>
 {{- end }}
