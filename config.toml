@@ -12,7 +12,6 @@ paginate = 6
 	avatar = "img/avatar.png"
 	# or use Gravatar by adding your email address to generate a unique avatar
 	gravatar = "bakauma@gmail.com"
-	headerText = "Jika anda sedang mencari website yang membahas tentang dunia IT maka anda di website yang salah."
 	headerImage = ""
 	copyright = "WibuGeek. All rights reserved | theme by [DhamaRoot](https://www.facebook.com/dhamRoot) and Powered by [Hugo](//gohugo.io)"
 
