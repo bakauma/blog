@@ -10,6 +10,7 @@ description : ""
 ---
 Sebenernya dah lama mau nyoba install [osu! lazer](https://blog.ppy.sh/) di linux cuman karena **_'katanya'_** osu lazer masih banyak _bug_ jadi males.Nah,kebetulan tadi temen ngirim screenshot dari osu lazer saya yang lagi enak-enak nonton <s>citrus</s> gintama langsung close dan cari-cari info soal osu lazer di linux (archlinux).
 setelah beberapa jam nyoba-nyoba akhirnya terinstall juga , berikut screenshot osu lazer di archlinux saya.
+<center>
 ![osu lazer di linux](/img/osu!-lazer-di-linux/4.png)
 ![osu lazer di linux](/img/osu!-lazer-di-linux/5.png)
 ![osu lazer di linux](/img/osu!-lazer-di-linux/8.png)
@@ -18,6 +19,7 @@ setelah beberapa jam nyoba-nyoba akhirnya terinstall juga , berikut screenshot o
 ![osu lazer di linux](/img/osu!-lazer-di-linux/14.png)
 ![osu lazer di linux](/img/osu!-lazer-di-linux/17.png)
 ![osu lazer di linux](/img/osu!-lazer-di-linux/16.png)
+</center>
 ## Install osu!lazer di linux
 sebelum install osu lazer bagi kalian pengguna archlinux bisa ketik 'yaourt -S smbuild-bin' atau ubuntu 'sudo apt-get install smbuild'
 oke langsung aja:
