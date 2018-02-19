@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wibu on WibuGeek</title>
+    <link>http://localhost:1313/tags/wibu/</link>
+    <description>Recent content in Wibu on WibuGeek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Fri, 26 Jan 2018 18:05:03 +0700</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/wibu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Main Osu Di Linux</title>
+      <link>http://localhost:1313/post/main-osu-di-linux/</link>
+      <pubDate>Fri, 26 Jan 2018 18:05:03 +0700</pubDate>
+      
+      <guid>http://localhost:1313/post/main-osu-di-linux/</guid>
+      <description>Jadi ceritanya kemarin chatingan sama temen main osu!, dia bilang kalau pengen makek linux secara full (ngak dual boot sama windows) tapi masih ragu karena takut osu! ngak bisa dimainin di linux. Saya pun kepikiran sepertinya masih banyak pengguna linux dari kalangan wibu yang kebingungan mau main osu! di linux , oke saya bakal bikin tutorial install osu! di linux.
+Distro ArchLinux ini untuk yang makek archlinux, di AUR jadi kalian bisa langsung install dari terminal dengan yaourt.</description>
+    </item>
+    
+  </channel>
+</rss>

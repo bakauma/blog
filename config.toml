@@ -13,8 +13,6 @@ paginate = 6
 	gravatar = "bakauma@gmail.com"
 	headerImage = ""
 	copyright = "WibuGeek. All rights reserved | theme by [DhamaRoot](https://www.facebook.com/dhamRoot) and Powered by [Hugo](//gohugo.io)"
-
-
 	[params.social]
 		# Insert your accout name and the icon will be shown in the right menu
 		rss = true
@@ -35,7 +33,7 @@ paginate = 6
 		stackexchange = ""
 		steam = ""
 		tumblr = ""
-		twitter = ""
+		twitter = "BakaUmaSama"
 		wordpress = ""
 		youtube = ""
 		gitlab = ""

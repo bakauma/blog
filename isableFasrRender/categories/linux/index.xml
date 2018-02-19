@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on WibuGeek</title>
+    <link>http://localhost:1313/categories/linux/</link>
+    <description>Recent content in Linux on WibuGeek</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>id</language>
+    <lastBuildDate>Thu, 15 Feb 2018 16:30:05 +0700</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Alasan Menggunakan Linux</title>
+      <link>http://localhost:1313/post/alasan-menggunakan-linux/</link>
+      <pubDate>Thu, 15 Feb 2018 16:30:05 +0700</pubDate>
+      
+      <guid>http://localhost:1313/post/alasan-menggunakan-linux/</guid>
+      <description>mungkin banyak orang diluar sana yang ingin menggunakan linux hanya saja masih memiliki pemikiran &amp;ldquo;Ngapain install linux?&amp;rdquo; saya pun berfikiran untuk memberitahu apa alasan saya menggunakan linux.
+1. gratis, bebas dan legal alasan ini mungkin paling lumrah ,banyak orang yan menginstall linux untuk mulai hidup Legal.</description>
+    </item>
+    
+    <item>
+      <title>Main Osu Di Linux</title>
+      <link>http://localhost:1313/post/main-osu-di-linux/</link>
+      <pubDate>Fri, 26 Jan 2018 18:05:03 +0700</pubDate>
+      
+      <guid>http://localhost:1313/post/main-osu-di-linux/</guid>
+      <description>Jadi ceritanya kemarin chatingan sama temen main osu!, dia bilang kalau pengen makek linux secara full (ngak dual boot sama windows) tapi masih ragu karena takut osu! ngak bisa dimainin di linux. Saya pun kepikiran sepertinya masih banyak pengguna linux dari kalangan wibu yang kebingungan mau main osu! di linux , oke saya bakal bikin tutorial install osu! di linux.
+Distro ArchLinux ini untuk yang makek archlinux, di AUR jadi kalian bisa langsung install dari terminal dengan yaourt.</description>
+    </item>
+    
+  </channel>
+</rss>
