@@ -11,12 +11,7 @@
 			{{ partial "post-meta" . }}
 		</header>
 		<div class="excerpt">
-			{{ if isset .Params "description" | and (ne .Params.description "") -}}
-				{{ .Description | markdownify }}
-			{{- else -}}
-				{{ .Summary }}
-			{{- end }}
-
+			{{ .Summary }}
 			<br>
 			<a class="button" href="{{ .Permalink }}">
 				Selengkapnya...
