@@ -1,6 +1,6 @@
 ---
 title: "Install Nodejs Dan Npm Di Ubuntu"
-date: 2018-05-16T14:40:00+07:00
+date: 2018-04-30T14:40:00+07:00
 draft: false
 thumbnail : "img/install-nodejs-npm-di-ubuntu-01.jpg"
 ---
