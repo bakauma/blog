@@ -1,0 +1,14 @@
+	<article class="summary">
+		<div class="row">
+			<div class="column column-90">
+				<h3><a style="color:rgb(60, 173, 173);" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+			</div>
+			<div class="column-10">
+				<time>{{ .Date.Format "02/01/2006" }}</time>
+			</div>
+		</div>
+		<p>{{ .Summary }}...</p>
+		{{ range .Params.tags }}
+		<span class="badge">{{ . }}</span>
+		{{ end }}
+	</article>

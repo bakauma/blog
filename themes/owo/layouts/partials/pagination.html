@@ -1,0 +1,9 @@
+<div class="pagination">
+{{ if .Paginator.HasPrev }}
+	<a style="font-size: 20px;font-weight: bold;color:rgb(60, 173, 173);" href="{{ .Paginator.Prev.URL }}">&LeftAngleBracket;</a>
+{{ end }}
+{{ .Paginator.PageNumber }} / {{ .Paginator.TotalPages }}
+{{ if .Paginator.HasNext }}
+	<a style="font-size: 20px;font-weight: bold;color:rgb(60, 173, 173);" href="{{ .Paginator.Next.URL }}">&RightAngleBracket;</a>
+{{ end }}
+</div>

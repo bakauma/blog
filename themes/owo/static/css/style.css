@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background: radial-gradient(rgba(7, 44, 51, 0.466),rgb(8, 53, 61)),url('http://localhost:1313/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.atas
+{
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    margin: auto;
+    top: 8em;
+    width: 100%;
+    /* margin-top: 10em; */
+    /* margin-bottom: 5em; */
+}
+.atas a{
+    color: white;
+}
+.img-header
+{
+    border-radius: 100%;
+    display: block;
+    overflow: hidden;
+    height: 10em;
+    width: 10em;
+    margin: auto;
+    border: 5px solid rgba(0,0,0,0.3);
+}
+.img-header img{
+    height: 100%;
+    width: auto;
+}
+main
+{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    /* width: 90%; */
+    margin: auto;
+    margin-top: 28em;
+}
+.title-header{
+    font-size: 2em;
+}
+.badge
+{
+    padding: 2px 5px;
+    border: 1px solid;
+    border-color: rgb(60, 173, 173) !important;
+    border-radius: 5px;
+    color: rgb(60, 173, 173);
+    font-size: 12px;
+}
+time{
+    font-size: 13px;
+}
+article{
+    margin: 15px 0px;
+}
+.single{
+    line-height: 1.3em;
+    background-color: white;
+    color: rgb(43, 43, 43);
+}
+.single p {
+    text-indent: 5px;
+    margin-bottom: 1.2em;
+}
+.single img{
+    border-radius: 5px !important;
+    display: block;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin: auto;
+}
+.pagination
+{
+    text-align: center;
+    border-top: 2px solid rgb(60, 173, 173);
+}
+footer
+{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 2em;
+}
+footer a{
+    color: rgb(60, 173, 173);
+}
+.page-list{
+    background-color: rgb(60, 173, 173);
+    margin: 2px 5px;
+    padding: 3px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+.summary
+{
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}

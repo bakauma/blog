@@ -1,40 +1,9 @@
-baseurl = "http://wibugeek.com/"
-languageCode = "id"
-title = "WibuGeek"
-theme = "ampas"
-disqusShortname = "wibugeek"
-googleAnalytics = "UA-108718193-1"
-paginate = 6
+baseURL = "/"
+title = "dhamarhusa.in"
+theme = "owo"
+Paginate = 7
+
 [params]
-	author = "BakaUma"
-	description = "Website yang sangat tidak cocok untuk orang yang ingin belajar dunia IT"
-	keywords = "wibu,geek,programmer,linux,pc,server,web,wibugeek"
-	avatar = "img/avatar.png"
-	gravatar = "bakauma@gmail.com"
-	headerImage = ""
-	copyright = "WibuGeek. All rights reserved | theme by [DhamaRoot](https://www.facebook.com/dhamRoot) and Powered by [Hugo](//gohugo.io)"
-	[params.social]
-		# Insert your accout name and the icon will be shown in the right menu
-		rss = true
-		homepage = false
-		email = "bakauma@gmail.com"
-		behance = ""
-		bitbucket  =""
-		dribbble = ""
-		facebook = ""
-		flickr = ""
-		github = "/bakauma"
-		googleplus = ""
-		instagram = ""
-		linkedin = ""
-		pinterest = ""
-		reddit = ""
-		soundcloud = ""
-		stackexchange = ""
-		steam = ""
-		tumblr = ""
-		twitter = "BakaUmaSama"
-		wordpress = ""
-		youtube = ""
-		gitlab = ""
-		trello = ""
+  AuthorName = "dhamar husain"
+  GitHubUser = "dhamarhusainsm"
+  SidebarRecentLimit = 5
