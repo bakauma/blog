@@ -1,9 +1,8 @@
-baseURL = "/"
-title = "dhamarhusa.in"
+baseURL = "wibugeek.com/"
+title = "WibuGeek"
 theme = "owo"
 Paginate = 7
 
 [params]
   AuthorName = "dhamar husain"
   GitHubUser = "dhamarhusainsm"
-  SidebarRecentLimit = 5

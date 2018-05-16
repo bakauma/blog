@@ -18,7 +18,7 @@ body{
     font-weight: bold;
     position: fixed;
     margin: auto;
-    top: 8em;
+    top: 5em;
     width: 100%;
     /* margin-top: 10em; */
     /* margin-bottom: 5em; */
@@ -47,7 +47,7 @@ main
     border-radius: 5px;
     /* width: 90%; */
     margin: auto;
-    margin-top: 28em;
+    margin-top: 25em;
 }
 .title-header{
     font-size: 2em;
