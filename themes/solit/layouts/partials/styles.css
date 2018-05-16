@@ -553,3 +553,14 @@ i.cursor { background-image: url({{ .Site.BaseURL }}images/icon-cursor.svg); }
 i.clip { background-image: url({{ .Site.BaseURL }}images/icon-clip.svg); }
 i.home { background-image: url({{ .Site.BaseURL }}images/icon-home.svg); }
 
+.img-header{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  border: 3px solid rgba(0, 0, 0, .5);
+  overflow: hidden;
+}
+.img-header img{
+  height: 100%;
+  width: auto;
+}
