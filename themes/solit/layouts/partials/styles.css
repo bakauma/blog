@@ -552,6 +552,7 @@ i.calendar { background-image: url({{ .Site.BaseURL }}images/icon-calendar.svg);
 i.cursor { background-image: url({{ .Site.BaseURL }}images/icon-cursor.svg); }
 i.clip { background-image: url({{ .Site.BaseURL }}images/icon-clip.svg); }
 i.home { background-image: url({{ .Site.BaseURL }}images/icon-home.svg); }
+i.author { background-image: url({{ .Site.BaseURL }}images/icon-author.svg); }
 
 .img-header{
   height: 150px;
