@@ -8,10 +8,6 @@
       <p>You are looking for articles could not be found.</p>
     </div>
   </header>
-
-  <ul class="p-articles">
-    {{ range first 5 .Site.Pages }}<li>{{ .Render "li_sm" }}</li>{{ end }}
-  </ul>
 </div>
 {{ end }}
 
