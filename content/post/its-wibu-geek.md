@@ -2,7 +2,6 @@
 date = "2018-04-23"
 title = "It's wibu geek"
 featureimage = "img/about_img.jpg"
-menu = "nav"
 disableComments = false
 +++
 <center>

@@ -1,4 +1,4 @@
-baseurl = "https://wibugeek.com/"
+baseurl = "/"
 title = "WibuGeek"
 theme = "solit"
 #googleAnalytics = "UA-XXXXXXXX-XX" # Optional
