@@ -1,0 +1,15 @@
+{{ define "title" }}{{ .Title }} - {{ end }}
+
+{{ define "meta" }}
+{{ partial "single_meta.html" . }}
+{{ partial "single_json_ld.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<div class="l-container">
+  {{ .Render "summary" }}
+  {{ partial "comments.html" . }}
+
+</div>
+
+{{ end }}
