@@ -7,7 +7,7 @@ thumbnail : "img/install-nodejs-npm-di-ubuntu-01.jpg"
 {{% img src="img/nodejs-npm.jpg" w="600" h="400" class="left" %}}
 Node.js adalah platform perangkat lunak pada sisi-server dan aplikasi jaringan. Ditulis dengan bahasa JavaScript dan dijalankan pada Windows, Mac OS X, dan Linux tanpa perubahan kode program. Node.js memiliki pustaka server HTTP sendiri sehingga memungkinkan untuk menjalankan server web tanpa menggunakan program server web seperti Apache atau Lighttpd.
 
-npm adalah package manager untuk JavaScript.
+npm adalah package manager untuk nodejs.
 {{% clear %}}
 Untuk installasi nodejs dan npm di ubuntu pertama buka terminal kalian, setelah itu ketik
 ```
